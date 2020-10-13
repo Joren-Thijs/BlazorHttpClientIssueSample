@@ -12,6 +12,8 @@ To reproduce this issue replace in `Program.cs`
 
 Do a Release build.
 
+Launch the Blazor WASM project and the separate API.
+
 And then access the "fetch data" page in the app.
 
 ### Technical details
