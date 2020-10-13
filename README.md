@@ -10,6 +10,8 @@ To reproduce this issue replace in `Program.cs`
 `builder.Services.AddScoped(sp => new HttpClient());` with
 `builder.Services.AddScoped<HttpClient>();`
 
+Do a Release build.
+
 And then access the "fetch data" page in the app.
 
 ### Technical details
